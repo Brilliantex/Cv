@@ -238,7 +238,7 @@
   grid-auto-columns: calc(50% - 16.5px);
   grid-template-columns: repeat(2, calc(50% - 16.5px));
   min-height: 314px;
-  grid-gap: 33px;
+  --gap: 33px;
 }
 
 .u-section-2 .u-list-item-1 {
@@ -357,6 +357,7 @@
 
   .u-section-2 .u-repeater-1 {
     min-height: 411px;
+    grid-gap: 33px;
   }
 
   .u-section-2 .u-text-2 {
